@@ -3,10 +3,11 @@
 <title>Test</title>
 <link rel="stylesheet" type="text/css" href="bootstrap.css" >
 <link rel="stylesheet" type="text/css" href="style.css" >
+<script type="text/javascript" src="mvs.js"></script>
 </head>
-<body>
+<body >
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">TEST</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,9 +27,63 @@
     </form>
   </div>
 </nav>
+<br>
+<br >
+<br>
+<h3 align="center">Current Movies<h3>
 <div class="container">
 
-</div>
+  <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+      <img width="200" height="200" src="movie1.jpg" >
+  </div>
 
+  <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+      <img width="200" height="200" src="movie2.jpg" >
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+      <img width="200" height="200" src="movie3.jpg" >
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+      <img width="200" height="200" src="movie4.jpg" >
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+      <img width="200" height="200" src="movie5.jpg" >
+  </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img width="50" height="50" class="demo cursor" src="movie1.jpg"  onclick="currentSlide(1)" alt="Fight Club">
+    </div>
+    <div class="column">
+      <img width="50" height="50" class="demo cursor" src="movie2.jpg" onclick="currentSlide(2)" alt="Legend">
+    </div>
+	 <div class="column">
+      <img width="50" height="50" class="demo cursor" src="movie3.jpg"  onclick="currentSlide(2)" alt="Inception">
+    </div>
+	 <div class="column">
+      <img width="50" height="50" class="demo cursor" src="movie4.jpg"  onclick="currentSlide(2)" alt="Law Abiding Citizen">
+    </div>
+	 <div class="column">
+      <img width="50" height="50" class="demo cursor" src="movie5.jpg" onclick="currentSlide(2)" alt="The Godfather">
+    </div>
+    
+  </div>
+</div>
 </body>
 </html>
