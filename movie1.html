@@ -1,13 +1,87 @@
 <html>
 <head>
 <title>Fight Club</title>
-<link rel="stylesheet" type="text/css" href="bootstrap.css" >
 <link rel="stylesheet" type="text/css" href="style.css" >
+<link rel="stylesheet" type="text/css" href="bootstrap.css" >
+
 </head>
-<body>
+<body background="backg.jpg">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img width="40" height="40" src="navlogo.jpg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="movies.html">Movies</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!--Poster-->
   <div class="col align-self-end">
-      <a href="movie1.html" target="_blank"><img src="movie1.jpg"></a>
+      <center><a href="movie1.html" target="_blank"><img src="movie1.jpg"></a></center>
     </div>
-	A depressed man (Edward Norton) suffering from insomnia meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself living in his squalid house after his perfect apartment is destroyed. The two bored men form an underground club with strict rules and fight other men who are fed up with their mundane lives. Their perfect partnership frays when Marla (Helena Bonham Carter), a fellow support group crasher, attracts Tyler's attention.
+	
+	<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<table class="table table-sm table-dark">
+	<thead>
+    <tr>
+      <th scope="col">Describtion</th>
+    </tr>
+  </thead>
+  <tbody>
+	 <tr>
+	<td>A depressed man (Edward Norton) suffering from insomnia meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself living in his squalid house after his perfect apartment is destroyed. The two bored men form an underground club with strict rules and fight other men who are fed up with their mundane lives. Their perfect partnership frays when Marla (Helena Bonham Carter), a fellow support group crasher, attracts Tyler's attention.</td>
+	</tr>
+	</tbody>
+	</table>
+    </div>
+    </div>
+    <div class="col-sm">
+
+	<table class="table table-sm table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Actors</th>
+	  <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Role</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Brad </td>
+      <td>Pitt</td>
+      <td>Main Actor</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Edward</td>
+      <td>Norton</td>
+      <td>Main Actor</td>
+    </tr>
+  </tbody>
+ 
+</table>
+    </div>
+  </div>
+</div>
+<a href="#" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Rent Movie</a>
+<a href="https://www.youtube.com/watch?v=qtRKdVHc-cE" target="_blank"  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Trailer</a>
 </body>
 </html>
