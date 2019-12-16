@@ -1,24 +1,30 @@
 <html>
 <head>
 <title>Fight Club</title>
-<link rel="stylesheet" type="text/css" href="style.css" >
+<link rel="stylesheet" type="text/css" href="style2.css" >
 <link rel="stylesheet" type="text/css" href="bootstrap.css" >
 
 </head>
-<body background="backg.jpg">
+<body background="ph/1.png">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img width="40" height="40" src="navlogo.jpg"></a>
+  <a class="navbar-brand" href="#"><img width="60" height="40" src="ph/navlogo.jpg"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="movies.html">Movies</a>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link" href="movies.html">About Us</a>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link" href="movies.html">Contact Us</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -27,61 +33,23 @@
     </form>
   </div>
 </nav>
+<!-- Start of description-->
 
-<!--Poster-->
-  <div class="col align-self-end">
-      <center><a href="movie1.html" target="_blank"><img src="movie1.jpg"></a></center>
-    </div>
-	
-	<div class="container">
-  <div class="row">
-    <div class="col-sm">
-	<table class="table table-sm table-dark">
-	<thead>
-    <tr>
-      <th scope="col">Describtion</th>
-    </tr>
-  </thead>
-  <tbody>
-	 <tr>
-	<td>A depressed man (Edward Norton) suffering from insomnia meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself living in his squalid house after his perfect apartment is destroyed. The two bored men form an underground club with strict rules and fight other men who are fed up with their mundane lives. Their perfect partnership frays when Marla (Helena Bonham Carter), a fellow support group crasher, attracts Tyler's attention.</td>
-	</tr>
-	</tbody>
-	</table>
-    </div>
-    </div>
-    <div class="col-sm">
 
-	<table class="table table-sm table-dark">
-  <thead>
-    <tr>
-      <th scope="col">Actors</th>
-	  <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Role</th>
 
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Brad </td>
-      <td>Pitt</td>
-      <td>Main Actor</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Edward</td>
-      <td>Norton</td>
-      <td>Main Actor</td>
-    </tr>
-  </tbody>
- 
-</table>
-    </div>
-  </div>
+<div id="card_container" >
+	<div class="pg">
+		<img src="ph/movie1.jpg">
+	</div>
+	<div id="card">
+		<div class="text-block">
+			<h2>Fight Club <small>(2010)</small></h1>
+			<p>
+			A depressed man (Edward Norton) suffering from insomnia meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself living in his squalid house after his perfect apartment is destroyed.
+			</p>
+			<a href="rent.html" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Rent Movie</a>
+		</div>
+	</div>
 </div>
-<a href="rent.html" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Rent Movie</a>
-<a href="https://www.youtube.com/watch?v=qtRKdVHc-cE" target="_blank"  class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Trailer</a>
 </body>
 </html>
