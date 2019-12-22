@@ -1,0 +1,187 @@
+.bkg {
+  background-image: url(bkgg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 13px;
+  color: white;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+input.larger {
+  transform: scale(3);
+  margin: 20px;
+}
+
+.aboutUs {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.goals {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.left {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.ourTeam {
+  margin-bottom: 25px;
+}
+
+.member {
+  display: flex;
+}
+
+.teamimage {
+  margin-right: 10px;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 2px solid #000;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-image: url(./backg.jpg);
+  padding: 20px;
+  color: #fff;
+}
+
+.follow-us {
+}
+
+.icon {
+  margin-right: 5px;
+  width: 50px;
+}
+
+.youtube:hover {
+  color: red;
+}
+.face:hover {
+  color: #4267b2;
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+.headerfooter {
+  margin-bottom: 20px;
+}
+
+.thefooter {
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  padding: 5px 30px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  margin-bottom: 8px;
+}
