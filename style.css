@@ -38,6 +38,22 @@ body {
   width: 300px;
   height: 450px;
 }
+#card4{
+      position: absolute;
+  transform: translate(150px,70px);
+  background: #000;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+}
+  #card5{
+      position: absolute;
+  transform: translate(550px,70px);
+  background: #000;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  }
 .card .poster {
   position: relative;
   overflow: hidden;
