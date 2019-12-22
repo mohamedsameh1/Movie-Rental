@@ -2,8 +2,10 @@
 <head>
 <title>Fight Club</title>
 <link rel="stylesheet" type="text/css" href="style2.css" >
-<link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="stylesheet" type="text/css" href="StyleHomeUpdated.css" >
 <link rel="stylesheet" type="text/css" href="bootstrap.css" >
+<script type="text/javascript" src="mvs.js"></script>
+    
 
 </head>
 <body background="ph/1.png">
@@ -18,14 +20,14 @@
       <li class="nav-item">
         <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
       </li>
-          <li class="nav-item">
-        <a class="nav-link" href="aboutus.html">About Us</a>
+      <li class="nav-item">
+        <a class="nav-link" href="movies.html">Movies</a>
       </li>
           <li class="nav-item">
-        <a class="nav-link" href="contactus.html">Contact Us</a>
+        <a class="nav-link" href="movies.html">About Us</a>
       </li>
-	   <li class="nav-item">
-        <a class="nav-link" href="signup.html">Sign Up</a>
+          <li class="nav-item">
+        <a class="nav-link" href="movies.html">Contact Us</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -44,13 +46,65 @@
 	</div>
 	<div id="card">
 		<div class="text-block">
-			<h2>Fight Club <small>(2010)</small></h1>
+			<h2>Fight Club <small>(2010)</small></h2>
 			<p>
 			A depressed man (Edward Norton) suffering from insomnia meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself living in his squalid house after his perfect apartment is destroyed.
 			</p>
-			<a href="rent.html" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Rent Movie</a>
+			<button onclick="cps()"><a href="rent.html" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" >Rent Movie</a></button>
+            <br>
+            <br>
+            <div class="avlcps">
+                <h4 id="cpscnt">Available Copies = 3<h4>
+            </div>
+            
+
 		</div>
 	</div>
 </div>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+<!--Footer-->
+        <footer class="footer-distributed" background="ph/1.png">
+
+			<div class="footer-left">
+				<img src="ph/logo.png" width="200px" height="100px">
+				<p class="footer-links">
+					<a href="#" class="link-1">Home</a>
+					<a href="#">Contct Us</a>
+					<a href="#">About Us</a>
+					<a href="#">Sign Up</a>
+				</p>
+				<p class="footer-company-name">Company Name © 2015</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+                    <h5><li>Adress</li></h5>
+					<p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+				</div>
+                  <br>
+				<div>
+                    <h5><li>Phone Number</li></h5>
+					<p>+1.555.555.5555</p>
+				</div>
+                  <br>
+				<div>
+                    <h5><li>Email</li></h5>
+					<p><a href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+			</div>
+
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+			</div>
+        
+		</footer>
 </body>
 </html>
